@@ -1,0 +1,89 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif , sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eae0cf;
+    
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav {
+    flex: 1;
+    padding: 20px;
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+}
+aside{background-color: beige; padding: 1em;}
+aside{
+    grid-area: head;
+}
+
+
+
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgb(63, 85, 118);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+div.a {
+    line-height: 110%;
+  }
+  footer {
+    background-color: rgb(174, 233, 174);
+    color: black;
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+}
+
+footer a {
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+footer a:hover {
+    background-color: beige;
+    color: black;
+}
+
+footer a.active {
+    background-color: beige;
+    color: white;
+}
+
+

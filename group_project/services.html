@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="testing.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Fotorama from CDNJS, 19 KB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+</head>
+<body>
+    <div class="topnavi">      
+        <a href="testing.html">HOME</a>
+        
+        <a href="aboutus.html">ABOUT US</a>
+        
+        <a href="facilities.html">FACILITIES</a>
+        
+        <a href="services.html">SERVICES</a>
+
+        <a href="contacts.html">CONTACTS</a>
+    </div>
+
+    
+      <header>
+        <section class="home-page" id="home-page">
+            <h1>WELCOME TO MAHALLAH BILAL</h1>
+            <h3>Nestled in the verdant landscapes of Gombak, Mahallah Bilal offers a unique retreat near the iconic Batu Caves. Surrounded by natural beauty, our hostel provides easy access to cultural wonders and outdoor adventures. With proximity to public transportation, exploring Gombak's attractions is effortless. Whether you're drawn to spiritual sites or the vibrant local markets, our Mahallah is your ideal base for a memorable stay in this enchanting university.</h3>
+        </section>
+     </header>
+    <div class="map">
+        <h1>
+            Mahallah Bilal Map
+        </h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3983.4145331774694!2d101.73784217580538!3d3.2466660525437416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x31cc38e892b4e589%3A0xb784062742b534de!2sMahallah%20Bilal%20Ibnu%20Rabah%2C%20Mahallah%20Bilal%20Ibnu%20Rabah%2C%20International%20Islamic%20University%20Malaysia%20(IIUM%2C%20Jalan%20Gombak%2C%2053100%20Kuala%20Lumpur%2C%20Wilayah%20Persekutuan%20Kuala%20Lumpur!3m2!1d3.2468526!2d101.74022579999999!5e0!3m2!1sen!2smy!4v1705240740418!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="FAQ">
+        <h1>Frequently Ask Question (FAQ)</h1>
+        <button class="accordion">How can I apply for accommodation in Mahallah Bilal at IIUM?</button>
+<div class="panel">
+  <p>To apply for accommodation in Mahallah Bilal at IIUM, you can follow the university's online housing application process. This usually involves logging into the student portal, navigating to the housing section, and completing the necessary forms. Make sure to adhere to the application deadlines for a smooth accommodation allocation process.</p>
+</div>
+
+<button class="accordion">What dining facilities are available in Mahallah Bilal?</button>
+<div class="panel">
+  <p>Mahallah Bilal typically has a dining hall that provides meals for residents. The dining facilities often offer a variety of options, including halal meals to accommodate the diverse student population. Meal plans and dining hours are usually communicated to residents at the beginning of each semester.</p>
+</div>
+
+<button class="accordion">How can I request maintenance or repairs in Mahallah Bilal?</button>
+<div class="panel">
+  <p> If you encounter any maintenance issues in your room or within Mahallah Bilal, you can report them to the mahallah management or the designated maintenance office. There may be a specific hotline or online platform for submitting maintenance requests. Please provide detailed information about the issue and your room number for a quicker resolution.</p>
+</div>
+
+
+<button class="accordion">Are there study facilities within Mahallah Bilal?</button>
+<div class="panel">
+  <p>Yes, Mahallah Bilal typically provides study facilities such as study rooms, quiet spaces, and computer labs for residents. These areas are designed to support your academic endeavors. Familiarize yourself with the locations and any guidelines for the usage of these facilities.</p>
+</div>
+
+
+<button class="accordion">Can I organize events or activities within Mahallah Bilal?</button>
+<div class="panel">
+  <p>Mahallah Bilal often encourages residents to engage in various activities and events. If you wish to organize an event within the mahallah, it is advisable to seek approval from the mahallah management or the student affairs office. They can provide guidance on the process, any necessary paperwork, and ensure that your event aligns with the mahallah's policies and regulations.</p>
+</div>
+
+
+    </div>
+
+    
+    <footer class="footer-distributed">
+
+      <div class="footer-right">
+          <a href="https://www.facebook.com/mahallahbilal" class="facebook"><i class="fab fa-facebook"></i></a>
+          <a href="https://twitter.com/mahallahbilal?lang=en" class="twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/mahallahbilal/?hl=en" class="instagram"><i class="fab fa-instagram"></i></a>
+          
+
+      </div>
+
+      <div class="footer-left">
+
+          <p class="footer-links">
+              <a href="testing.html">HOME</a>
+
+              <a href="aboutus.html">ABOUT US</a>
+
+              <a href="facilities.html">FACILITIES</a>
+
+              <a href="services.html">SERVICES</a>
+
+              <a href="contacts.html">CONTACTS</a>
+          </p>
+      </div>
+
+  </footer>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+    </script>
+
+</body>
+  <style>
+    .accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+.accordion {
+  background-color: rgb(215, 201, 179);
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: rgb(215, 201, 179); 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color:rgb(215, 201, 179);
+  overflow: hidden;
+}.accordion:after {
+        content: '\02795'; /* Unicode character for "plus" sign (+) */
+        font-size: 13px;
+        color: #777;
+        float: right;
+        margin-left: 5px;
+      }
+      
+      .active:after {
+        content: "\2796"; /* Unicode character for "minus" sign (-) */
+      }
+    .accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+      }
+      
+      .active, .accordion:hover {
+        background-color: #ccc; 
+      }
+      
+      .panel {
+        padding: 0 18px;
+        display: none;
+        background-color: white;
+        overflow: hidden;
+      }
+      footer {
+    background-color: rgb(174, 233, 174);
+    color: black;
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+}
+
+footer a {
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+footer a:hover {
+    background-color: beige;
+    color: black;
+}
+
+footer a.active {
+    background-color: beige;
+    color: white;
+}
+  </style>
+</html>

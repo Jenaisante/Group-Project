@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <label for="int1">Enter your first integer </label>
+    <input type="text" name="int1" id="int1">
+    <br>
+    <label for="int2">Enter your second integer</label>
+    <input type="text" name="int2" id="int2">
+    
+    <br>
+
+    <button type="button" onclick="addIntegers()">Add</button>
+    <button type="button" onclick="SubtractIntegers()">Subtract</button>
+    <button type="button" onclick="MultiplyIntegers()">Multiply</button>
+    <button type="button" onclick="DivideIntegers()">Divide</button>
+    <p id="result"></p>
+ 
+<script>
+     function addIntegers () {
+     let num1 = Number(document.getElementById("int1").value);
+     let num2 = Number(document.getElementById("int2").value);
+     let add = num1 + num2;
+
+     document.getElementById("result").innerHTML =
+     num1 + " + " + num2 + " = " + add;
+     }
+    function SubtractIntegers () {
+     let num1 = Number(document.getElementById("int1").value);
+     let num2 = Number(document.getElementById("int2").value);
+     let Subtract = num1 - num2;
+
+     document.getElementById("result").innerHTML =
+     num1 + " - " + num2 + " = " + Subtract;
+    }
+
+    function MultiplyIntegers () {
+     let num1 = Number(document.getElementById("int1").value);
+     let num2 = Number(document.getElementById("int2").value);
+     let Multiply = num1 * num2;
+
+     document.getElementById("result").innerHTML =
+     num1 + " * " + num2 + " = " + Multiply ;
+    }
+
+    function DivideIntegers () {
+     let num1 = Number(document.getElementById("int1").value);
+     let num2 = Number(document.getElementById("int2").value);
+     let Divide = num1 / num2;
+
+     document.getElementById("result").innerHTML =
+     num1 + " / " + num2 + " = " + Divide;
+    }
+
+ </script>
+</body>
+</html>

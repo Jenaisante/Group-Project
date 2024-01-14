@@ -1,0 +1,150 @@
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(215, 201, 179);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.topnavi {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    opacity: 0.6;
+}
+
+.topnavi a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    opacity: 1;
+}
+
+.topnavi a:hover {
+    background-color: beige;
+    color: black;
+}
+
+.topnavi a.active {
+    background-color: beige;
+    color: white;
+}
+
+header {
+    background-color: #ffffff;
+    color: #030303;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    background-image: url('images/mahallah.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.photo-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.photo-gallery img {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+
+header h2 {
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+
+header h3 {
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background-color: rgb(174, 233, 174);
+    color: black;
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+}
+
+footer a {
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+footer a:hover {
+    background-color: beige;
+    color: black;
+}
+
+footer a.active {
+    background-color: beige;
+    color: white;
+}
+
+.organizational-chart{
+    height: 500px;
+}
+
+.news{
+    height: 10px;
+    width: 10px;
+    text-align: center;
+}
+
+
+.facilities-page{
+    height: 500px;
+}
+
+.organizational-chart{
+    height: 500px;
+}
+
+.services{
+    height: 500px;
+}
+
+div{
+    text-align: center;
+}

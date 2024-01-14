@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Change styling using JS!</p>
+    <br>
+    <button type="button">Change colour</button>
+    
+    <script>
+        
+        const btn = document.querySelector('button');
+
+       function changeColour () { 
+            document.body.style.backgroundColor = "green";
+            document.body.style.color = "white";
+        }
+
+       btn.addEventListener('click', changeColour);
+       
+
+    </script>
+</body>
+</html>
